@@ -5,30 +5,94 @@
 	<link rel="stylesheet" type="text/css" href="../dist/g.css">
 	<style>
 		/* just for formatting */
-		.g-container {
-			background: #ddd;
+		div.box /* all the cols */ {
+			background: #ccc;
+			border: 1px solid #aaa;
+			padding: 20px;
+			text-align: center;
+			margin-bottom: 1px;
+			width: calc( 100% - 40px );
+			width: -webkit-calc( 100% - 40px );
+			height: 100%;
+		}
+		small {
+			display: block;
 		}
 		.g-row {
-			background: #eee;
+			margin-top: 20px;
 		}
-		div /* all the cols */ {
-			background: #aaa;
+		.g-container {
+			margin-bottom: 20px;
 		}
 	</style>
 </head>
 <body>
-	<h1>Example grid</h1>
 	<div class="g-container">
 		<div class="g-row">
-			<div class="g-xs12">Fills whole row</div>
+			<div class="g-xs12">
+				<h1>Simple gcss example</h1>
+			</div>
 		</div>
 		<div class="g-row">
-			<div class="g-xs6">Half row</div>
-			<div class="g-xs6">Half row</div>
+			<div class="g-xs12">
+				<div class="box">
+					We have rows
+				</div>
+			</div>
 		</div>
 		<div class="g-row">
-			<div class="g-xs12 g-lg6">Sometimes half</div>
-			<div class="g-xs12 g-lg6">Sometimes half</div>
+			<div class="g-xs6">
+				<div class="box">
+					This always takes up 6 columns
+					<small>(half the grid)</small>
+				</div>
+			</div>
+			<div class="g-xs6">
+				<div class="box">
+					So does this. Uneven box heights work!
+				</div>
+			</div>
+		</div>
+		<div class="g-row">
+			<div class="g-xs12 g-lg6">
+				<div class="box">
+					On large screens this will take up 6 columns.
+					<small>On small screens it will collapse.</smal>
+				</div>
+			</div>
+			<div class="g-xs12 g-lg6">
+				<div class="box">
+					Same thing here.
+					<small>On small screens it will collapse.</small>
+				</div>
+			</div>
+		</div>
+		<div class="g-row">
+			<div class="g-xs3">
+				<div class="box">
+					Jagged rows also work as expected.
+				</div>
+			</div>
+		</div>
+		<div class="g-row">
+			<div class="g-xs9"></div>
+			<div class="g-xs3">
+				<div class="box">
+					Empty divs for padding.
+				</div>
+			</div>
+		</div>
+		<div class="g-row">
+			<div class="g-sm1 g-xs12">
+				<div class="box">
+					Overflowwwww works
+				</div>
+			</div>
+			<div class="g-sm11 g-xs12">
+				<div class="box">
+					&nbsp;
+				</div>
+			</div>
 		</div>
 	</div>
 </body>
