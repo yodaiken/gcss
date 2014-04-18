@@ -32,17 +32,24 @@
 /* @media only screen { */
   .gen-gridx(xs);
 /*}*/
+.gen-uhide(xs);
 
 @media only screen and (min-width: @w-sm) {
   .gen-gridx(sm);
 }
+.gen-uhide(sm);
 
 @media only screen and (min-width: @w-md) {
   .gen-gridx(md);
 }
+.gen-uhide(md);
 
 @media only screen and (min-width: @w-lg) {
   .gen-gridx(lg);
+}
+
+.g-hide {
+  display: none;
 }
 
 
@@ -58,9 +65,19 @@
   }
 }
 
+.gen-uhide(@pfx) {
+  @media only screen and (max-width: ~"@{w-@{pfx}}") {
+    .g-u@{pfx}hide {
+      display: none;
+    }
+  }
+}
 .gen-gridx(@pfx) {
   .g-container {
     width: ~"@{w-@{pfx}}";
+  }
+  .g-@{pfx}hide {
+    display: none;
   }
   .gen-grid(@pfx);
 }
