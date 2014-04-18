@@ -1,10 +1,15 @@
 .g-container,
-.g-flexcontainer {
+.g-flexcontainer,
+.g-fullcontainer {
   margin: 0 auto;
   transition: width .2s;
 }
 .g-flexcontainer {
   width: 98%;
+}
+.g-fullcontainer {
+  width: 102%;
+  margin-left: -1%;
 }
 .g-row {
   width: 100%;

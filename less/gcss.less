@@ -16,12 +16,16 @@
 
 // Grid
 
-.g-container, .g-flexcontainer {
+.g-container, .g-flexcontainer, .g-fullcontainer {
   margin: 0 auto;
   transition: width .2s;
 }
 .g-flexcontainer {
   width: (100% - 100% * @w-gut);
+}
+.g-fullcontainer {
+  width: (100% + 100% * @w-gut);
+  margin-left: -(100% * @w-gut / 2);
 }
 .g-row {
   width: 100%;
