@@ -1,7 +1,7 @@
 // Variables
 
 @cols:	12;
-@w-gut:	.025;
+@w-gut:	.02;
 
 @xs:	320px;
 @sm:	720px;
@@ -9,7 +9,6 @@
 @lg:	1200px;
 
 // Computed vars
-@w-sm-gut: (@sm * @w-gut);
 @w-xs:	(@xs + (@xs * @w-gut));
 @w-sm:	(@sm + (@sm * @w-gut));
 @w-md:	(@md + (@md * @w-gut));
@@ -17,15 +16,18 @@
 
 // Grid
 
-.g-container {
+.g-container, .g-flexcontainer {
   margin: 0 auto;
   transition: width .2s;
+}
+.g-flexcontainer {
+  width: (100% - 100% * @w-gut);
 }
 .g-row {
   width: 100%;
 }
 
-.g-container, .g-row {
+.g-container, .g-flexcontainer, .g-row {
   overflow: hidden;
 }
 

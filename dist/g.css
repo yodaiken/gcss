@@ -1,391 +1,396 @@
-.g-container {
+.g-container,
+.g-flexcontainer {
   margin: 0 auto;
   transition: width .2s;
+}
+.g-flexcontainer {
+  width: 98%;
 }
 .g-row {
   width: 100%;
 }
 .g-container,
+.g-flexcontainer,
 .g-row {
   overflow: hidden;
 }
 .g-container {
-  width: 328px;
+  width: 326.4px;
 }
 .g-xshide {
   display: none;
 }
 .g-xs1 {
-  width: 5.83333333%;
-  margin-right: 1.25%;
-  margin-left: 1.25%;
+  width: 6.33333333%;
+  margin-right: 1%;
+  margin-left: 1%;
   float: left;
   min-height: 1px;
 }
 .g-xs2 {
-  width: 14.16666667%;
-  margin-right: 1.25%;
-  margin-left: 1.25%;
+  width: 14.66666667%;
+  margin-right: 1%;
+  margin-left: 1%;
   float: left;
   min-height: 1px;
 }
 .g-xs3 {
-  width: 22.5%;
-  margin-right: 1.25%;
-  margin-left: 1.25%;
+  width: 23%;
+  margin-right: 1%;
+  margin-left: 1%;
   float: left;
   min-height: 1px;
 }
 .g-xs4 {
-  width: 30.83333333%;
-  margin-right: 1.25%;
-  margin-left: 1.25%;
+  width: 31.33333333%;
+  margin-right: 1%;
+  margin-left: 1%;
   float: left;
   min-height: 1px;
 }
 .g-xs5 {
-  width: 39.16666667%;
-  margin-right: 1.25%;
-  margin-left: 1.25%;
+  width: 39.66666667%;
+  margin-right: 1%;
+  margin-left: 1%;
   float: left;
   min-height: 1px;
 }
 .g-xs6 {
-  width: 47.5%;
-  margin-right: 1.25%;
-  margin-left: 1.25%;
+  width: 48%;
+  margin-right: 1%;
+  margin-left: 1%;
   float: left;
   min-height: 1px;
 }
 .g-xs7 {
-  width: 55.83333333%;
-  margin-right: 1.25%;
-  margin-left: 1.25%;
+  width: 56.33333333%;
+  margin-right: 1%;
+  margin-left: 1%;
   float: left;
   min-height: 1px;
 }
 .g-xs8 {
-  width: 64.16666667%;
-  margin-right: 1.25%;
-  margin-left: 1.25%;
+  width: 64.66666667%;
+  margin-right: 1%;
+  margin-left: 1%;
   float: left;
   min-height: 1px;
 }
 .g-xs9 {
-  width: 72.5%;
-  margin-right: 1.25%;
-  margin-left: 1.25%;
+  width: 73%;
+  margin-right: 1%;
+  margin-left: 1%;
   float: left;
   min-height: 1px;
 }
 .g-xs10 {
-  width: 80.83333333%;
-  margin-right: 1.25%;
-  margin-left: 1.25%;
+  width: 81.33333333%;
+  margin-right: 1%;
+  margin-left: 1%;
   float: left;
   min-height: 1px;
 }
 .g-xs11 {
-  width: 89.16666667%;
-  margin-right: 1.25%;
-  margin-left: 1.25%;
+  width: 89.66666667%;
+  margin-right: 1%;
+  margin-left: 1%;
   float: left;
   min-height: 1px;
 }
 .g-xs12 {
-  width: 97.5%;
-  margin-right: 1.25%;
-  margin-left: 1.25%;
+  width: 98%;
+  margin-right: 1%;
+  margin-left: 1%;
   float: left;
   min-height: 1px;
 }
-@media only screen and (max-width: 328px) {
+@media only screen and (max-width: 326.4px) {
   .g-uxshide {
     display: none;
   }
 }
-@media only screen and (min-width: 738px) {
+@media only screen and (min-width: 734.4px) {
   .g-container {
-    width: 738px;
+    width: 734.4px;
   }
   .g-smhide {
     display: none;
   }
   .g-sm1 {
-    width: 5.83333333%;
-    margin-right: 1.25%;
-    margin-left: 1.25%;
+    width: 6.33333333%;
+    margin-right: 1%;
+    margin-left: 1%;
     float: left;
     min-height: 1px;
   }
   .g-sm2 {
-    width: 14.16666667%;
-    margin-right: 1.25%;
-    margin-left: 1.25%;
+    width: 14.66666667%;
+    margin-right: 1%;
+    margin-left: 1%;
     float: left;
     min-height: 1px;
   }
   .g-sm3 {
-    width: 22.5%;
-    margin-right: 1.25%;
-    margin-left: 1.25%;
+    width: 23%;
+    margin-right: 1%;
+    margin-left: 1%;
     float: left;
     min-height: 1px;
   }
   .g-sm4 {
-    width: 30.83333333%;
-    margin-right: 1.25%;
-    margin-left: 1.25%;
+    width: 31.33333333%;
+    margin-right: 1%;
+    margin-left: 1%;
     float: left;
     min-height: 1px;
   }
   .g-sm5 {
-    width: 39.16666667%;
-    margin-right: 1.25%;
-    margin-left: 1.25%;
+    width: 39.66666667%;
+    margin-right: 1%;
+    margin-left: 1%;
     float: left;
     min-height: 1px;
   }
   .g-sm6 {
-    width: 47.5%;
-    margin-right: 1.25%;
-    margin-left: 1.25%;
+    width: 48%;
+    margin-right: 1%;
+    margin-left: 1%;
     float: left;
     min-height: 1px;
   }
   .g-sm7 {
-    width: 55.83333333%;
-    margin-right: 1.25%;
-    margin-left: 1.25%;
+    width: 56.33333333%;
+    margin-right: 1%;
+    margin-left: 1%;
     float: left;
     min-height: 1px;
   }
   .g-sm8 {
-    width: 64.16666667%;
-    margin-right: 1.25%;
-    margin-left: 1.25%;
+    width: 64.66666667%;
+    margin-right: 1%;
+    margin-left: 1%;
     float: left;
     min-height: 1px;
   }
   .g-sm9 {
-    width: 72.5%;
-    margin-right: 1.25%;
-    margin-left: 1.25%;
+    width: 73%;
+    margin-right: 1%;
+    margin-left: 1%;
     float: left;
     min-height: 1px;
   }
   .g-sm10 {
-    width: 80.83333333%;
-    margin-right: 1.25%;
-    margin-left: 1.25%;
+    width: 81.33333333%;
+    margin-right: 1%;
+    margin-left: 1%;
     float: left;
     min-height: 1px;
   }
   .g-sm11 {
-    width: 89.16666667%;
-    margin-right: 1.25%;
-    margin-left: 1.25%;
+    width: 89.66666667%;
+    margin-right: 1%;
+    margin-left: 1%;
     float: left;
     min-height: 1px;
   }
   .g-sm12 {
-    width: 97.5%;
-    margin-right: 1.25%;
-    margin-left: 1.25%;
+    width: 98%;
+    margin-right: 1%;
+    margin-left: 1%;
     float: left;
     min-height: 1px;
   }
 }
-@media only screen and (max-width: 738px) {
+@media only screen and (max-width: 734.4px) {
   .g-usmhide {
     display: none;
   }
 }
-@media only screen and (min-width: 984px) {
+@media only screen and (min-width: 979.2px) {
   .g-container {
-    width: 984px;
+    width: 979.2px;
   }
   .g-mdhide {
     display: none;
   }
   .g-md1 {
-    width: 5.83333333%;
-    margin-right: 1.25%;
-    margin-left: 1.25%;
+    width: 6.33333333%;
+    margin-right: 1%;
+    margin-left: 1%;
     float: left;
     min-height: 1px;
   }
   .g-md2 {
-    width: 14.16666667%;
-    margin-right: 1.25%;
-    margin-left: 1.25%;
+    width: 14.66666667%;
+    margin-right: 1%;
+    margin-left: 1%;
     float: left;
     min-height: 1px;
   }
   .g-md3 {
-    width: 22.5%;
-    margin-right: 1.25%;
-    margin-left: 1.25%;
+    width: 23%;
+    margin-right: 1%;
+    margin-left: 1%;
     float: left;
     min-height: 1px;
   }
   .g-md4 {
-    width: 30.83333333%;
-    margin-right: 1.25%;
-    margin-left: 1.25%;
+    width: 31.33333333%;
+    margin-right: 1%;
+    margin-left: 1%;
     float: left;
     min-height: 1px;
   }
   .g-md5 {
-    width: 39.16666667%;
-    margin-right: 1.25%;
-    margin-left: 1.25%;
+    width: 39.66666667%;
+    margin-right: 1%;
+    margin-left: 1%;
     float: left;
     min-height: 1px;
   }
   .g-md6 {
-    width: 47.5%;
-    margin-right: 1.25%;
-    margin-left: 1.25%;
+    width: 48%;
+    margin-right: 1%;
+    margin-left: 1%;
     float: left;
     min-height: 1px;
   }
   .g-md7 {
-    width: 55.83333333%;
-    margin-right: 1.25%;
-    margin-left: 1.25%;
+    width: 56.33333333%;
+    margin-right: 1%;
+    margin-left: 1%;
     float: left;
     min-height: 1px;
   }
   .g-md8 {
-    width: 64.16666667%;
-    margin-right: 1.25%;
-    margin-left: 1.25%;
+    width: 64.66666667%;
+    margin-right: 1%;
+    margin-left: 1%;
     float: left;
     min-height: 1px;
   }
   .g-md9 {
-    width: 72.5%;
-    margin-right: 1.25%;
-    margin-left: 1.25%;
+    width: 73%;
+    margin-right: 1%;
+    margin-left: 1%;
     float: left;
     min-height: 1px;
   }
   .g-md10 {
-    width: 80.83333333%;
-    margin-right: 1.25%;
-    margin-left: 1.25%;
+    width: 81.33333333%;
+    margin-right: 1%;
+    margin-left: 1%;
     float: left;
     min-height: 1px;
   }
   .g-md11 {
-    width: 89.16666667%;
-    margin-right: 1.25%;
-    margin-left: 1.25%;
+    width: 89.66666667%;
+    margin-right: 1%;
+    margin-left: 1%;
     float: left;
     min-height: 1px;
   }
   .g-md12 {
-    width: 97.5%;
-    margin-right: 1.25%;
-    margin-left: 1.25%;
+    width: 98%;
+    margin-right: 1%;
+    margin-left: 1%;
     float: left;
     min-height: 1px;
   }
 }
-@media only screen and (max-width: 984px) {
+@media only screen and (max-width: 979.2px) {
   .g-umdhide {
     display: none;
   }
 }
-@media only screen and (min-width: 1230px) {
+@media only screen and (min-width: 1224px) {
   .g-container {
-    width: 1230px;
+    width: 1224px;
   }
   .g-lghide {
     display: none;
   }
   .g-lg1 {
-    width: 5.83333333%;
-    margin-right: 1.25%;
-    margin-left: 1.25%;
+    width: 6.33333333%;
+    margin-right: 1%;
+    margin-left: 1%;
     float: left;
     min-height: 1px;
   }
   .g-lg2 {
-    width: 14.16666667%;
-    margin-right: 1.25%;
-    margin-left: 1.25%;
+    width: 14.66666667%;
+    margin-right: 1%;
+    margin-left: 1%;
     float: left;
     min-height: 1px;
   }
   .g-lg3 {
-    width: 22.5%;
-    margin-right: 1.25%;
-    margin-left: 1.25%;
+    width: 23%;
+    margin-right: 1%;
+    margin-left: 1%;
     float: left;
     min-height: 1px;
   }
   .g-lg4 {
-    width: 30.83333333%;
-    margin-right: 1.25%;
-    margin-left: 1.25%;
+    width: 31.33333333%;
+    margin-right: 1%;
+    margin-left: 1%;
     float: left;
     min-height: 1px;
   }
   .g-lg5 {
-    width: 39.16666667%;
-    margin-right: 1.25%;
-    margin-left: 1.25%;
+    width: 39.66666667%;
+    margin-right: 1%;
+    margin-left: 1%;
     float: left;
     min-height: 1px;
   }
   .g-lg6 {
-    width: 47.5%;
-    margin-right: 1.25%;
-    margin-left: 1.25%;
+    width: 48%;
+    margin-right: 1%;
+    margin-left: 1%;
     float: left;
     min-height: 1px;
   }
   .g-lg7 {
-    width: 55.83333333%;
-    margin-right: 1.25%;
-    margin-left: 1.25%;
+    width: 56.33333333%;
+    margin-right: 1%;
+    margin-left: 1%;
     float: left;
     min-height: 1px;
   }
   .g-lg8 {
-    width: 64.16666667%;
-    margin-right: 1.25%;
-    margin-left: 1.25%;
+    width: 64.66666667%;
+    margin-right: 1%;
+    margin-left: 1%;
     float: left;
     min-height: 1px;
   }
   .g-lg9 {
-    width: 72.5%;
-    margin-right: 1.25%;
-    margin-left: 1.25%;
+    width: 73%;
+    margin-right: 1%;
+    margin-left: 1%;
     float: left;
     min-height: 1px;
   }
   .g-lg10 {
-    width: 80.83333333%;
-    margin-right: 1.25%;
-    margin-left: 1.25%;
+    width: 81.33333333%;
+    margin-right: 1%;
+    margin-left: 1%;
     float: left;
     min-height: 1px;
   }
   .g-lg11 {
-    width: 89.16666667%;
-    margin-right: 1.25%;
-    margin-left: 1.25%;
+    width: 89.66666667%;
+    margin-right: 1%;
+    margin-left: 1%;
     float: left;
     min-height: 1px;
   }
   .g-lg12 {
-    width: 97.5%;
-    margin-right: 1.25%;
-    margin-left: 1.25%;
+    width: 98%;
+    margin-right: 1%;
+    margin-left: 1%;
     float: left;
     min-height: 1px;
   }
