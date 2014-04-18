@@ -54,6 +54,7 @@
     margin-right: 100% * @w-gut / 2;
     margin-left: 100% * @w-gut / 2;
     float: left;
+    min-height: 1px;
   }
 }
 
@@ -66,6 +67,6 @@
 
 .gen-grid(@pfx, @i: 1) when (@i =< @cols) {
   .gen-col(@i, @pfx);
- 
+
   .gen-grid(@pfx, (@i + 1) );
 }
