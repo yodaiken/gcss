@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="lib/normalize.css">
+	<link rel="stylesheet" type="text/css" href="../dist/g.css">
+	<style>
+		/* just for formatting */
+		.g-container {
+			background: #ddd;
+		}
+		.g-row {
+			background: #eee;
+		}
+		div /* all the cols */ {
+			background: #aaa;
+		}
+	</style>
+</head>
+<body>
+	<h1>Example grid</h1>
+	<div class="g-container">
+		<div class="g-row">
+			<div class="g-xs12">Fills whole row</div>
+		</div>
+		<div class="g-row">
+			<div class="g-xs6">Half row</div>
+			<div class="g-xs6">Half row</div>
+		</div>
+		<div class="g-row">
+			<div class="g-xs12 g-lg6">Sometimes half</div>
+			<div class="g-xs12 g-lg6">Sometimes half</div>
+		</div>
+	</div>
+</body>
+</html>

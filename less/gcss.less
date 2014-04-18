@@ -1,0 +1,71 @@
+// Variables
+
+@cols:	12;
+@w-gut:	.025;
+
+@xs:	320px;
+@sm:	720px;
+@md:	960px;
+@lg:	1200px;
+
+// Computed vars
+@w-sm-gut: (@sm * @w-gut);
+@w-xs:	(@xs + (@xs * @w-gut));
+@w-sm:	(@sm + (@sm * @w-gut));
+@w-md:	(@md + (@md * @w-gut));
+@w-lg:	(@lg + (@lg * @w-gut));
+
+// Grid
+
+.g-container {
+  margin: 0 auto;
+  transition: width .2s;
+}
+.g-row {
+  width: 100%;
+}
+
+.g-container, .g-row {
+  overflow: hidden;
+}
+
+@media only screen {
+  .gen-gridx(xs);
+}
+
+@media only screen and (min-width: @w-sm) {
+  .gen-gridx(sm);
+}
+
+@media only screen and (min-width: @w-md) {
+  .gen-gridx(md);
+}
+
+@media only screen and (min-width: @w-lg) {
+  .gen-gridx(lg);
+}
+
+
+// Functions
+
+.gen-col(@i, @pfx) {
+  .g-@{pfx}@{i} {
+    width: 100% * ( @i / @cols - @w-gut );
+    margin-right: 100% * @w-gut / 2;
+    margin-left: 100% * @w-gut / 2;
+    float: left;
+  }
+}
+
+.gen-gridx(@pfx) {
+  .g-container {
+    width: ~"@{w-@{pfx}}";
+  }
+  .gen-grid(@pfx);
+}
+
+.gen-grid(@pfx, @i: 1) when (@i =< @cols) {
+  .gen-col(@i, @pfx);
+ 
+  .gen-grid(@pfx, (@i + 1) );
+}
